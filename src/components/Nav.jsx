@@ -1,6 +1,7 @@
 import React from "react";
 import headerLogo from "../assets/images/header-logo.svg";
 import { navLinks } from "../constants";
+import { hamburger } from "../assets/icons";
 
 const Nav = () => {
   return (
@@ -22,6 +23,9 @@ const Nav = () => {
               </li>
             ))}
           </ul>
+          <div className=" hidden max-lg:block">
+            <img src={hamburger} width={25} height={25} alt="Hamburger" />
+          </div>
         </nav>
       </header>
     </>

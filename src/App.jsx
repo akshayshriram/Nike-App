@@ -8,7 +8,7 @@ import {
   SpecialServices,
   Subscribe,
   SuperQuality,
-} from "./components";
+} from "./sections";
 import Nav from "./components/Nav";
 
 const App = () => {
@@ -16,7 +16,7 @@ const App = () => {
     <>
       <main className="relative">
         <Nav></Nav>
-        <section className="xl:padding-1 wide:padding-r padding-b">
+        <section className="xl:padding-l wide:padding-r padding-b">
           <Hero></Hero>
         </section>
         <section className="padding">
