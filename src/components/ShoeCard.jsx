@@ -7,7 +7,6 @@ const ShoeCard = ({ imageUrl, changeBigShoeImage, bigShoeImg }) => {
       changeBigShoeImage(imageUrl.bigShoe);
     }
   };
-  console.log(bigShoeImg);
 
   return (
     <>
